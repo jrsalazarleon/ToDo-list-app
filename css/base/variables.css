@@ -1,0 +1,18 @@
+:root {
+    /* Primary colors */
+    --body: rgb(254, 249, 231 );
+    --light-yellow: rgb(249, 231, 159);
+    --light-blue: rgb(86, 101, 115);
+    --dark-blue: rgb(39, 55, 70 );
+    --white: rgb(255, 255, 255);
+
+    /* Font */
+    --raleway: 'Raleway', sans-serif;
+
+    /* Weights */
+    --normal: 300;
+    --medium: 500;
+    --semi-bold: 600;
+    --bold: 700;
+}
+

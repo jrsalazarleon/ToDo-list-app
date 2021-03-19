@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="shortcut icon" href="/resources/png/office-material.png" type="image/x-icon">
+    <title>ToDo List</title>
+</head>
+<body>
+
+    <div id="root">
+        <main class="main-content">
+            <h1>My ToDo List</h1>
+            <div class="list-wrapper">
+                <form class="main-form">
+                    <label for="text">
+                        <input id="input-data" type="text"  placeholder="Escriba aquí su tarea a realizar" name="">
+                    </label>
+                    <button id="list-button" class="style-buttons" onclick="getInputData(), clearInputData(), inputSpace()" type="button">Enviar</button>
+                </form>
+    
+               <div class="results-wrapper">
+                <div class="results-content">
+                    <ul id="list-content">
+                    </ul>
+                </div>
+                <button id="clear-button" onclick="showElement()" class="style-buttons" type="button">Borrar</button>
+               </div>
+                
+            </div>
+        </main>
+    </div>
+    
+</body>
+<script src="/js/script.js"></script>
+</html>

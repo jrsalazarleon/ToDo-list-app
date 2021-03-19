@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+@import "/css/components/main.css";
+@import "/css/base/utils.css";
+@import "/css/base/variables.css";
+@import "/css/base/reset.min.css";
+
+#root {
+    min-width: 375px;
+    min-height: 100vh;
+    margin: 0 auto;
+    width: 100%;
+    background-color: var(--body);
+    font-family: var(--raleway);
+}
