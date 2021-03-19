@@ -1,7 +1,7 @@
 .main-content {
-    border: 1px solid red;
     padding: 40px;
 }
+
 
 .main-content h1{
     text-align: center;
@@ -62,4 +62,14 @@
     min-height: 400px;
     outline: none;
     border: none;
+}
+
+.results-content {
+    height: 400px;
+    padding: 20px 0;
+    overflow-y: auto;
+}
+
+.list-content li {
+    padding: 10px 0;
 }
